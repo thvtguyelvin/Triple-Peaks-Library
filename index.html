@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triple Peaks Library</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-5"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Wrap the entire page content in a new div with the page class. Remember to add the closing tag -->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
+          />
+          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#events">Events</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reader-picks">Reader picks</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#membership">Become a member</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Welcome to the Triple Peaks Library</h1>
+        <p class="header__description">
+          We're pleased to open our library doors to everyone! Come and expand
+          your development knowledge, or just use this lovely spot to work or
+          study. This is a cool place for cool students!
+        </p>
+        <img
+          src="./images/inside_the_library.svg"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <a class="header__link" href="#">About the library &darr;</a>
+          <p class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="events" id="events">
+          <div class="events__content">
+            <h2 class="events__heading">Upcoming events:</h2>
+            <h3 class="events__title">
+              In honor of Joan Feynman: Women in astrophysics
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <div
+                  class="event-info__icon event-info__icon_type_calendar"
+                ></div>
+                <p class="event-info__text">Mon, January 12</p>
+              </div>
+              <div class="event-info__item">
+                <div class="event-info__icon event-info__icon_type_pin"></div>
+                <p class="event-info__text">
+                  Triple Peaks Library Conference Hall & Online
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              At this event, which celebrates the library's namesake, our guest
+              lecturer will take us on a journey exploring some of the most
+              prominent female researchers in the world of space science. It's
+              easy to buy into the misconception that this field was mostly
+              dominated by men, but our lecture aims to change that notion and
+              prove that this hasn't been the case since at least the 18th
+              century.
+            </p>
+            <a href="#" class="events__more">More events &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img
+              src="./images/cafe-events.svg"
+              alt="Illustration 'Library Events'"
+              class="events__image"
+            />
+            <article class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Picture of Joan Feynman"
+                class="person__image person__image_size_l"
+              />
+            </article>
+            <article class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Picture of Jill Tarter"
+                class="person__image person__image_size_m"
+              />
+            </article>
+            <article class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Picture of Margaret Burbidge"
+                class="person__image person__image_size_m"
+              />
+            </article>
+            <article class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Picture of Maria Mitchell"
+                class="person__image person__image_size_s"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </article>
+            <article class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Picture of Annie Jump Cannon"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="staff" id="reader-picks">
+          <h2 class="staff__title">Reader picks</h2>
+          <p class="staff__subtitle">That our readers love</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Atomic Habits</h3>
+                <p class="card__text">
+                  This book revolutionizes the way we approach habit formation.
+                  By focusing on small, incremental changes, readers can achieve
+                  significant, long-lasting results. The book's practical
+                  strategies and actionable advice empower individuals to build
+                  good habits, break bad ones, and transform their lives.
+                </p>
+                <p class="card__footer">James Clear</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">The Happiest Man on Earth</h3>
+                <p class="card__text">
+                  This book is a memoir of a Holocaust survivor who found joy
+                  and purpose in life despite unimaginable hardship. Jaku's
+                  story of resilience and optimism inspires readers to
+                  appreciate life's simple pleasures and find hope in the
+                  darkest of times. The book's message of gratitude and
+                  perseverance makes it a compelling read for anyone seeking
+                  inspiration and a more positive outlook on life.
+                </p>
+                <p class="card__footer">Eddie Jaku</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  The Mountain Is You: Transforming Self-Sabotage Into
+                  Self-Mastery
+                </h3>
+                <p class="card__text">
+                  This book delves into the psychological barriers that hinder
+                  personal growth. It encourages readers to recognize
+                  self-sabotaging patterns and replace them with empowering
+                  beliefs. By understanding and transforming these internal
+                  obstacles, individuals can unlock their full potential and
+                  achieve lasting happiness and success.
+                </p>
+                <p class="card__footer">Brianna Wiest</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Napoleon Hill's Path to Purpose: 7 Steps to Living a Life that
+                  Matters
+                </h3>
+                <p class="card__text">
+                  This book presents a seven-step framework for discovering and
+                  fulfilling one's purpose in life. By following these steps,
+                  readers can gain clarity, motivation, and direction. This
+                  timeless guide empowers individuals to live a more meaningful
+                  and fulfilling life, inspiring them to make a positive impact
+                  on the world.
+                </p>
+                <p class="card__footer">Napoleon Hill</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="membership" id="membership">
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Step 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Fill out the membership form online or in person.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Come pick up your library card at the front desk.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Sign the back of the card.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Enjoy all the awesome benefits of membership!
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="about" id="about">
+          <img
+            class="about__image"
+            src="./images/cafe-about.svg"
+            alt="Illustration 'Cafe'"
+          />
+          <div class="about__content">
+            <h2 class="about__title">About the library</h2>
+            <p class="about__paragraph">
+              Libraries are essential establishments in practically every city,
+              and the Triple Peaks Library is no exception. It first opened its
+              doors way back in 2018, right as our humble town began bidding
+              welcome to its very first citizens!
+            </p>
+            <p class="about__paragraph">
+              Since its initial opening, the library has seen nearly 342 monthly
+              visitors. That's almost 50% of our population! So far, most
+              citizens have enjoyed reading books and using our ample online
+              resources.
+            </p>
+            <p class="about__paragraph">
+              Become a member today, and make sure to check out our Staff Picks
+              section. This week's selection is full of books anyone interested
+              in computer programming would love!
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="Triple Peaks Library Logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Hours</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am &ndash; 8pm</li>
+              <li class="footer__list-item">Weekends: 10am &ndash; 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Elvin Lucero.</p>
+      </footer>
+    </div>
+  </body>
+</html>
